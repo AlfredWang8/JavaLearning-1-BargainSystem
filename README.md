@@ -6,7 +6,8 @@
 - 查看所有记录。
 - 将记录存储到records.txt中。
 ### 结构
-`AccountBook/
+```
+AccountBook/
  ├─ src/
  │   ├─ Main.java              # 程序入口
  │   ├─ model/
@@ -19,6 +20,6 @@
  │        └─ Menu.java         # 菜单界面
  └─ data/
       └─ records.txt           # 存储账目信息
-`
+```
 ### 运行
 运行Main.java即可。

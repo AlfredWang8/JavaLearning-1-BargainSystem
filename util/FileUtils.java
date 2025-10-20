@@ -4,7 +4,7 @@ import model.Record;
 import java.util.*;
 
 public class FileUtils {
-    private static final String FILE_PATH = "records.txt";
+    private static final String FILE_PATH = "data/records.txt";
 
     public static void saveRecords(List<Record> records) {
         try (java.io.BufferedWriter writer = new java.io.BufferedWriter(new java.io.FileWriter(FILE_PATH))) {
@@ -41,3 +41,4 @@ public class FileUtils {
         return records;
     }
 }
+
